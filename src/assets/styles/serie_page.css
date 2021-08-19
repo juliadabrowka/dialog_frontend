@@ -1,0 +1,40 @@
+div.all-content {
+    width: 100%;
+}
+
+div.content {
+  margin: 0% auto 3% auto;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center
+}
+
+img {
+    width: 300px;
+    height: 317px
+}
+
+.texts{
+  width: 55%;
+  margin-bottom: 3%
+}
+img {
+  width: 300px;
+  height: 317px;
+  box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px 20px
+}
+
+.serie-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 60%
+}
