@@ -1,20 +1,20 @@
 <template>
   <div>
     <Menu></Menu>
+    <Spinner />
     <router-view :key="$route.path"/>
-    <Footer></Footer>
   </div>
 </template>
 
 <script>
-import Menu from './components/nav/Menu.vue'
-import Footer from './components/nav/Footer.vue'
+import Menu from '@/components/nav/Menu.vue'
+import Spinner from '@/components/spinner/Spinner.vue'
 import './assets/styles/global.css'
 
 export default {
   components: {
     Menu,
-    Footer
+    Spinner
   }
 }
 </script>

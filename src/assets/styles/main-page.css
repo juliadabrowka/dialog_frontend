@@ -10,7 +10,6 @@
     align-items: center;
     position:relative;
     display: flex;
-    z-index: 111;
   }
   
   .mainpage-tokens {

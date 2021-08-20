@@ -79,7 +79,6 @@ li {
 a {
   text-decoration: none;
   color: black;
-  padding: 10px;
 }
 
 .logo-img{
@@ -118,15 +117,23 @@ li:hover {
 }
 
 @media only screen and (min-width: 1024px) {
-  hr { width: 61%; left: 19%}
-  .menu-navbar { font-size: 20px;}
-  .logo-img { width: 140px}
+  hr { width: 70%; left: 15%}
+  .menu-navbar { font-size: 17px; margin: 0% 4%; width: 90%}
+  .logo-img { width: 90px;}
+  .sm-pics { width: 20px; height: 20px;}
 }
 
 @media only screen and (min-width: 1440px) {
-  hr { width: 70%; left: 15%}
-  .menu-navbar { font-size: 25px;}
-  .logo-img { width: 150px}
+  hr { width: 69%; left: 15%}
+  .menu-navbar { font-size: 20px;}
+  .logo-img { width: 110px}
+}
+
+@media only screen and (min-width: 1920px){
+  hr { width: 71%}
+  .menu-navbar { font-size: 25px; margin: 0% 4%; width: 91%}
+  .logo-img { width: 130px}
+  .sm-pics { width: 30px; height: 30px;}
 }
 
 @media only screen and (max-width: 415px){

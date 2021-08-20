@@ -1,5 +1,4 @@
 <template>
-  <div>
       <div class="all-content">
         <div class="sell-content" v-for='token in serie' :key=token.id>
           <div class="texts">
@@ -9,16 +8,18 @@
             <p class="serie-description">
               {{token.description}}
             </p>
-            <button><router-link :to='`${token.get_absolute_url}`'>
-              View gallery
-            </router-link></button>
+            <div class="hr-line">
+              <button><router-link :to='`${token.get_absolute_url}`'>
+                View gallery
+              </router-link></button>
+              <hr>
+            </div>
           </div>
             <div class="gallery">
                   <img :src='token.get_image' alt="">
             </div>
         </div>
       </div>
-  </div>
 </template>
 
 <script>

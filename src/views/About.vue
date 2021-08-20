@@ -1,7 +1,5 @@
 <template>
-<div>
   <AboutPage></AboutPage>
-</div>
 </template>
 
 <script>
