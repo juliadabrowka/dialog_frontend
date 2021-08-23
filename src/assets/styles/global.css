@@ -20,18 +20,14 @@
   }
   
   @media only screen and (min-width: 1024px) {
-    #app { margin-top: 20%}
+    #app { margin-top: 17%}
   }
   
   @media only screen and (min-width: 1440px) {
-    #app { margin-top: 15%}
+    #app { margin-top: 12%}
   }
   
   @media only screen and (min-width: 1920px) {
-    #app { margin-top: 13% }
-  }
-  
-  @media only screen and (min-width: 2560px) {
-    #app { margin-top: 13% }
+    #app { margin-top: 11% }
   }
   

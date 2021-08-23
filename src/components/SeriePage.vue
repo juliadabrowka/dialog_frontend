@@ -1,5 +1,4 @@
 <template>
-<div>
   <div class="all-content">
       <div class="content">
           <div class="texts">
@@ -11,13 +10,16 @@
               </p>
           </div>
           <div class="serie-gallery">
-            <div v-for='token in serieDetails.tokens' :key='token'>
+            <div class='token-container' v-for='token in serieDetails.tokens' :key='token'>
                 <img :src="token.get_image" alt="token.title">
+            <span class='token-undertitle'>
+              <span class='title'>{{token.title}}</span>
+              <span class='undertitle'>s{{token.serie}}|n0{{token.number}}|#{{token.author}}</span>
+            </span>
           </div>
         </div>
       </div>
   </div>
-</div>
 </template>
 
 <script>

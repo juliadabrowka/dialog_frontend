@@ -95,8 +95,8 @@ div.sell-content {
   img { width: 450px; height: 450px;}
   button { font-size: 15px; width: 35%}
   hr { margin-left: 60px; width: 52%}
-  .title-serie { font-size: 25px;}
-  .serie-description { font-size : 20px }
+  .title-serie { font-size: 28px;}
+  .serie-description { font-size : 22px }
 }
 
 @media (min-width: 2560px) {

@@ -2,7 +2,7 @@
   <div>
       <div class="mainpage-tokens">
         <div class='token-container' v-for='token in randomTokens' :key=token.id>
-              <img class='token' :src='token.get_image'>
+              <img :src='token.get_image'>
             <span class='token-undertitle'>
               <span class='title'>{{token.title}}</span>
               <span class='undertitle'>s{{token.serie}}|n0{{token.number}}|#{{token.author}}</span>
