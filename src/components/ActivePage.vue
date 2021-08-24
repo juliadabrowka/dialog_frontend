@@ -12,7 +12,6 @@
               <button><router-link :to='`${token.get_absolute_url}`'>
                 View gallery
               </router-link></button>
-              <hr>
             </div>
           </div>
             <div class="gallery">

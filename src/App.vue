@@ -1,8 +1,8 @@
 <template>
   <div>
     <Menu></Menu>
-    <Spinner :key="$route.path"/>
-    <router-view :key="$route.path"/>
+      <Spinner :key="$route.path"/>
+      <router-view :key="$route.path"/>
   </div>
 </template>
 

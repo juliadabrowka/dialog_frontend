@@ -1,14 +1,3 @@
-.hr-line {
-  display: inline-flex;
-  align-items: baseline;
-}
-hr {
-  width: 57%;
-  margin-left: 36px;
-  height: 1px;
-  background-color: black
-}
-
 button {
   background-color: white;
   padding: 10px 20px;

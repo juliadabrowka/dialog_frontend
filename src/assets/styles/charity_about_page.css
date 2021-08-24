@@ -8,6 +8,9 @@
   font-size: 20px;
   letter-spacing: 3px;
 }
+.sign {
+  text-align: right;
+}
 
 @media only screen and (min-width: 1024px) {
   .main-content { width: 50% }

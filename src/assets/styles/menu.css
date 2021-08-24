@@ -124,7 +124,7 @@ li:hover {
 }
 
 @media only screen and (min-width: 1440px) {
-  hr { width: 69%; left: 15%}
+  hr { width: 70%; left: 15%}
   .menu-navbar { font-size: 20px;}
   .logo-img { width: 110px}
 }

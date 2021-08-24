@@ -5,7 +5,7 @@
               <img :src='token.get_image'>
             <span class='token-undertitle'>
               <span class='title'>{{token.title}}</span>
-              <span class='undertitle'>s{{token.serie}}|n0{{token.number}}|#{{token.author}}</span>
+              <span class='undertitle'>s{{token.serie}}|nº{{token.number}}|#{{token.author}}</span>
             </span>
         </div>
       </div>
