@@ -21,7 +21,7 @@ export default {
     const randomTokens = ref([])
     const error = ref('')
 
-    const load = () => axios.get('http://127.0.0.1:8000/main-page/')
+    const load = () => axios.get('http://192.168.41.41:8000/main-page/')
       .then(response => {
         randomTokens.value = response.data
       })

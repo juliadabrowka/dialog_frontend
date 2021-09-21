@@ -1,6 +1,6 @@
 <template>
 <div class='spinner-bg' v-if="show">
-    <div class="lds-heart">
+    <div class="lds-roller">
         <img class='spinner-img' src='../../assets/images/logo-small.png'>
     </div>
 </div>

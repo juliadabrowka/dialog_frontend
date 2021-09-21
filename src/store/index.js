@@ -18,11 +18,15 @@ export default createStore({
         web: 'https://opensea.io/',
         img: require('../assets/images/opensea.png')
       }
-    ]
+    ],
+    backendUrl: 'https://192.168.41.41:8000'
   },
   getters: {
     sm (state) {
       return state.sm
+    },
+    backendUrl (state) {
+      return state.backendUrl
     }
   },
   mutations: {

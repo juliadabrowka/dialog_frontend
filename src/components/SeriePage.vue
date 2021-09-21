@@ -11,7 +11,7 @@
           </div>
           <div class="serie-gallery">
             <div class='token-container' v-for='token in serieDetails.tokens' :key='token'>
-                <img :src="token.get_image" alt="token.title">
+                <img :src="token.get_image" alt="">
             <span class='token-undertitle'>
               <span class='title'>{{token.title}}</span>
               <span class='undertitle'>s{{token.serie}}|nº{{token.number}}|#{{token.author}}</span>
@@ -33,7 +33,7 @@ export default {
     const route = useRoute()
     const slugPage = route.params.slug
 
-    const load = () => axios.get('http://127.0.0.1:8000/serie/' + slugPage)
+    const load = () => axios.get('http://192.168.41.41:8000/serie/' + slugPage)
       .then(response => {
         serieDetails.value = response.data
       })

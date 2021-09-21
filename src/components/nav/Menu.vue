@@ -37,7 +37,7 @@ export default {
   setup () {
     const series = ref([])
 
-    const load = () => axios.get('http://127.0.0.1:8000/serie/')
+    const load = () => axios.get('http://192.168.41.41:8000/serie/')
       .then(response => {
         series.value = response.data
       })
