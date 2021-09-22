@@ -66,7 +66,13 @@ img {
   img { width: 250px; height: 250px;}
 }
 
+@media only screen and (min-width: 1836px){
+  .mainpage-tokens { width: 70% }
+  img { width: 300px; height: 300px;}
+}
+
 @media only screen and (min-width: 1920px){
+  .mainpage-tokens { width: 60% }
   img { width: 300px; height: 300px}
 }
 
