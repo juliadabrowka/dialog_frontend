@@ -37,4 +37,7 @@ When changing the component you can see a loader based on logo of dialog-box
 
 ![image](https://user-images.githubusercontent.com/76727970/135414070-2279814b-0cf3-4c05-8d71-c5c99474568d.png)
 
+
 ![image](https://user-images.githubusercontent.com/76727970/135414978-07f84502-473e-465a-89b7-5e72ffb60956.png)
+
+file:///home/julia/Pictures/243322519_385251333182738_4614633771593923134_n.png![image](https://user-images.githubusercontent.com/76727970/135416292-acabde16-59d7-4900-b83a-c52e18501b05.png)
