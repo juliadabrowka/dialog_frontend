@@ -35,8 +35,6 @@ Active mark shows all the sold tokens from all the series in a random way each t
 
 When changing the component you can see a loader based on logo of dialog-box
 
-![image](https://user-images.githubusercontent.com/76727970/135414070-2279814b-0cf3-4c05-8d71-c5c99474568d.png)
+https://user-images.githubusercontent.com/76727970/135420822-e2226cc6-5c3c-4a97-9594-7722f4505736.mp4
 
-![Screenshot from 2021-09-30 10-15-05](https://user-images.githubusercontent.com/76727970/135417258-e456222c-c8eb-40cb-b8f2-772deba60881.png)
 
-![243322519_385251333182738_4614633771593923134_n](https://user-images.githubusercontent.com/76727970/135417287-15f0d726-9d1a-413a-a753-c108696e475d.png)
