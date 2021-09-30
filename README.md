@@ -34,3 +34,5 @@ Each serie has its own view based on dynamic url. When you hover on an image you
 Active mark shows all the sold tokens from all the series in a random way each time you refresh the page.
 
 When changing the component you can see a loader based on logo of dialog-box
+
+![image](https://user-images.githubusercontent.com/76727970/135414070-2279814b-0cf3-4c05-8d71-c5c99474568d.png)
